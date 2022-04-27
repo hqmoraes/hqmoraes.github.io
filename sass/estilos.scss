@@ -1,0 +1,36 @@
+body{
+    padding:0;
+    margin:0;
+    background-image: linear-gradient(rgba(204,255,255,0.5),rgba(242,242,242, 0.5))
+}
+.container{
+    background: linear-gradient(to right, rgba(255,255,255,0.5) 50%,url('../img/fundo.svg')) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin:0;
+    border: none;
+}
+div[data-tag=div-1]{
+    position: relative;
+    max-width: 1400px;
+    max-height: 1291px;
+    margin: 0 auto;
+}
+div[data-tag=div-2]{
+    position:absolute;
+    left:0;
+    bottom:0;
+    width: 100%;
+    height: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img{
+        width: 95%;
+    }
+}
+
